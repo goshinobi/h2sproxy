@@ -1,0 +1,9 @@
+
+{
+    "proxies": [
+        "localhost:18080"
+    ],
+    "ignore": [
+		"google.co.jp"
+    ]
+}

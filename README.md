@@ -34,3 +34,15 @@ Usage of h2s:
 ```
 $ h2s -addr 0.0.0.0:3128 -c config.json
 ```
+
+## docker run
+
+### build docker image
+```
+$ sh docker-build.sh
+```
+
+### docker run
+```
+$ docker run -v `pwd`:/h2s goshinobi/h2s -c config.json
+```

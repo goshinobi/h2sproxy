@@ -1,6 +1,5 @@
 # h2sproxy
-
-h2sproxy is wrapped socks proxy with http proxy.
+h2sproxy wraps socks proxy with http proxy.
 
 # config
 ```

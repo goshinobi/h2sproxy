@@ -44,5 +44,5 @@ $ sh docker-build.sh
 
 ### docker run
 ```
-$ docker run -v `pwd`:/h2s goshinobi/h2s -c config.json
+$ docker run -p 3128:3128 -v `pwd`:/h2s goshinobi/h2s -c config.json
 ```
